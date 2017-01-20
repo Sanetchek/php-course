@@ -1,0 +1,18 @@
+body {
+    padding: 20px;
+    background-color: #dbdbe1;
+}
+li {
+    margin-left: 30px;
+    padding-left: 10px;
+}
+.lesson {
+    border: 1px solid #ececec;
+    padding: 0 100px 10px 25px;
+}
+.lesson h2 {
+    cursor: pointer;
+}
+.lesson-content {
+    display: none;
+}
