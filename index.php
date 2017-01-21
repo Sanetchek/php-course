@@ -12,5 +12,11 @@
             <?php include('lesson2.php'); ?>
         </div>
     </div>
+    <div class="lesson">
+        <h2 class="icon-menu3"> Задание к уроку 3</h2>
+        <div class="lesson-content">
+            <?php include('lesson3.php'); ?>
+        </div>
+    </div>
 
 <?php include('footer.php'); ?>
