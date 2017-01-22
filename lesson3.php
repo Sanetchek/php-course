@@ -70,14 +70,14 @@
 
             foreach ($regionsAndCities as $regions => $cities) {
                 echo
-                "<h3>$regions:</h3>                
+                "<li><h3>$regions:</h3>                
                 <ol>";
 
                 foreach($cities as $city) {
                     echo "<li>$city</li>";
                 }
 
-                echo "</ol>";
+                echo "</li></ol>";
             }
         ?>
     </ul>
@@ -95,14 +95,14 @@
 
         foreach ($regionsAndCities as $regions => $cities) {
             echo
-            "<h3>$regions:</h3>                
+            "<li><h3>$regions:</h3>                
                 <ol>";
 
             foreach($cities as $city) {
                 if ( mb_substr($city, 0, 1)  === "Л") echo "<li>$city</li>";
             }
 
-            echo "</ol>";
+            echo "</li></ol>";
         }
         ?>
     </ul>
