@@ -2,6 +2,13 @@ body {
     padding: 20px;
     background-color: #dbdbe1;
 }
+
+.container {
+    max-width: 1280px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+
 li {
     margin-left: 30px;
     padding-left: 10px;
@@ -15,4 +22,17 @@ li {
 }
 .lesson-content {
     display: none;
+}
+
+.gallery {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 16px 0;
+}
+
+.gallery li {
+    margin-left: 0;
+    padding-left: 0;
 }
